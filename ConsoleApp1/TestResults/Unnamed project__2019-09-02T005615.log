@@ -1,0 +1,386 @@
+﻿2019-09-02T00:56:15.5308243+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-09-02T00:56:15.5309012+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.377 in Framework netcore21 in x64 mode execution started
+2019-09-02T00:56:15.5309051+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-09-02T00:56:15.5931175+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\Homework.dll
+2019-09-02T00:56:15.5934865+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\TestResults" (default)
+2019-09-02T00:56:15.5936079+03:00;VSTestExecutionThread;Info;Profile: 
+2019-09-02T00:56:15.6283312+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\TestResults\Unnamed project__2019-09-02T005615.log
+2019-09-02T00:56:15.6305922+03:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T00:56:15.6366016+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-09-02T00:56:15.6438516+03:00;Thread#12;Info;Checking license
+2019-09-02T00:56:15.6441497+03:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T00:56:15.6456820+03:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T00:56:15.6626675+03:00;Thread#12;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-09-02T00:56:25.6632687+03:00;Thread#12;Info;Evaluation delay finished.
+2019-09-02T00:56:25.7067828+03:00;Thread#12;Info;License check completed
+2019-09-02T00:56:25.7070308+03:00;Thread#12;Info;starting test run
+2019-09-02T00:56:25.7215133+03:00;Thread#12;Info;Discovering target: Default
+2019-09-02T00:56:25.7217819+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\Homework.dll
+2019-09-02T00:56:25.8489025+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\Homework.dll
+2019-09-02T00:56:25.8508257+03:00:Test Suite Dump
+2019-09-02T00:56:25.8530559+03:00:#0: Unnamed project/ - 
+2019-09-02T00:56:25.8530692+03:00:#1: Default - 
+2019-09-02T00:56:25.8530820+03:00:#2: Homework - 
+2019-09-02T00:56:25.8530858+03:00:#3: REQ-UI-01 - The Title should be "UI Testing Site" on every site - 
+2019-09-02T00:56:25.8530896+03:00:#6: REQ-UI-03 - When I click on the Home button, I should get navigated to the Home page - 
+2019-09-02T00:56:25.8530913+03:00:#8: REQ-UI-04 - When I click on the Home button, it should turn to active status - 
+2019-09-02T00:56:25.8530930+03:00:#10: REQ-UI-05 - When I click on the Form button, I should get navigated to the Form page - 
+2019-09-02T00:56:25.8530952+03:00:#12: REQ-UI-06 - When I click on the Form button, it should turn to active status - 
+2019-09-02T00:56:25.8531119+03:00:#14: REQ-UI-07 - When I click on the Error button, I should get a 404 HTTP response code - 
+2019-09-02T00:56:25.8531136+03:00:#16: REQ-UI-08 - When I click on the UI Testing button, I should get navigated to the Home page - 
+2019-09-02T00:56:25.8531153+03:00:#18: REQ-UI-09 - The following text should be visible on the Home page in <h1> tag: - 
+2019-09-02T00:56:25.8531166+03:00:#20: REQ-UI-10 - The following text should be visible on the Home page in <p> tag: - 
+2019-09-02T00:56:25.8531187+03:00:#22: REQ-UI-11 - On the Form page, a form should be visible with one input box and one submit button - 
+2019-09-02T00:56:25.8531204+03:00:#24: REQ-UI-12 - On the Form page, if you type <value> the input field and submit the form, - 
+2019-09-02T00:56:25.8531431+03:00:#4: Check title on Homepage - TestAssembly:Homework/Feature:REQ-UI-01+-+The+Title+should+be+%22UI+Testing+Site%22+on+every+site/Scenario:Check+title+on+Homepage
+2019-09-02T00:56:25.8531550+03:00:#5: Check title on Form - TestAssembly:Homework/Feature:REQ-UI-01+-+The+Title+should+be+%22UI+Testing+Site%22+on+every+site/Scenario:Check+title+on+Form
+2019-09-02T00:56:25.8531619+03:00:#7: I should be on the Home Page - TestAssembly:Homework/Feature:REQ-UI-03+-+When+I+click+on+the+Home+button%2c+I+should+get+navigated+to+the+Home+page/Scenario:I+should+be+on+the+Home+Page
+2019-09-02T00:56:25.8531674+03:00:#9: I see the Home button active - TestAssembly:Homework/Feature:REQ-UI-04+-+When+I+click+on+the+Home+button%2c+it+should+turn+to+active+status/Scenario:I+see+the+Home+button+active
+2019-09-02T00:56:25.8531867+03:00:#11: I click on form - TestAssembly:Homework/Feature:REQ-UI-05+-+When+I+click+on+the+Form+button%2c+I+should+get+navigated+to+the+Form+page/Scenario:I+click+on+form
+2019-09-02T00:56:25.8531923+03:00:#13: I see the Form button active - TestAssembly:Homework/Feature:REQ-UI-06+-+When+I+click+on+the+Form+button%2c+it+should+turn+to+active+status/Scenario:I+see+the+Form+button+active
+2019-09-02T00:56:25.8532021+03:00:#15: I see the error code - TestAssembly:Homework/Feature:REQ-UI-07+-+When+I+click+on+the+Error+button%2c+I+should+get+a+404+HTTP+response+code/Scenario:I+see+the+error+code
+2019-09-02T00:56:25.8532081+03:00:#17: I should navigate to Home page when I click UI Testing button - TestAssembly:Homework/Feature:REQ-UI-08+-+When+I+click+on+the+UI+Testing+button%2c+I+should+get+navigated+to+the+Home+page/Scenario:I+should+navigate+to+Home+page+when+I+click+UI+Testing+button
+2019-09-02T00:56:25.8532299+03:00:#19: I should get "Welcome to the Docler Holding QA Department" when looking for an <h1> tag - TestAssembly:Homework/Feature:REQ-UI-09+-+The+following+text+should+be+visible+on+the+Home+page+in+%3ch1%3e+tag%3a/Scenario:I+should+get+%22Welcome+to+the+Docler+Holding+QA+Department%22+when+looking+for+an+%3ch1%3e+tag
+2019-09-02T00:56:25.8532449+03:00:#21: I should get "Welcome to the Docler Holding QA Department" when looking for an <h1> tag - TestAssembly:Homework/Feature:REQ-UI-10+-+The+following+text+should+be+visible+on+the+Home+page+in+%3cp%3e+tag%3a/Scenario:I+should+get+%22Welcome+to+the+Docler+Holding+QA+Department%22+when+looking+for+an+%3ch1%3e+tag
+2019-09-02T00:56:25.8532508+03:00:#23: On the Form page, a form should be visible with one input box and one submit button - TestAssembly:Homework/Feature:REQ-UI-11+-+On+the+Form+page%2c+a+form+should+be+visible+with+one+input+box+and+one+submit+button/Scenario:On+the+Form+page%2c+a+form+should+be+visible+with+one+input+box+and+one+submit+button
+2019-09-02T00:56:25.8532607+03:00:#25: Submit the form, John - TestAssembly:Homework/Feature:REQ-UI-12+-+On+the+Form+page%2c+if+you+type+%3cvalue%3e+the+input+field+and+submit+the+form%2c/Scenario:Submit+the+form%2c+John
+2019-09-02T00:56:25.8532662+03:00:#26: Submit the form, Sophia - TestAssembly:Homework/Feature:REQ-UI-12+-+On+the+Form+page%2c+if+you+type+%3cvalue%3e+the+input+field+and+submit+the+form%2c/Scenario:Submit+the+form%2c+Sophia
+2019-09-02T00:56:25.8532714+03:00:#27: Submit the form, Charlie - TestAssembly:Homework/Feature:REQ-UI-12+-+On+the+Form+page%2c+if+you+type+%3cvalue%3e+the+input+field+and+submit+the+form%2c/Scenario:Submit+the+form%2c+Charlie
+2019-09-02T00:56:25.8532863+03:00:#28: Submit the form, Emily - TestAssembly:Homework/Feature:REQ-UI-12+-+On+the+Form+page%2c+if+you+type+%3cvalue%3e+the+input+field+and+submit+the+form%2c/Scenario:Submit+the+form%2c+Emily
+2019-09-02T00:56:25.8533445+03:00:End: Test Suite Dump
+2019-09-02T00:56:25.8752985+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:25.8778478+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-09-02T00:56:25.8779175+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-09-02T00:56:25.8824745+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:25.8824895+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:25.8824916+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:25.8824954+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-09-02T00:56:25.8840342+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-09-02T00:56:25.8852722+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:25.8891305+03:00:Thread #0: creating new test thread executor for Homework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-09-02T00:56:25.8919757+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-09-02T00:56:25.8927258+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-09-02T00:56:25.8942581+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-09-02T00:56:25.8984375+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-09-02T00:56:25.9113543+03:00:starting Out Of Process Executor
+2019-09-02T00:56:26.0222528+03:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\SpecFlowPlusRunner\netcoreapp2.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_1.dll" 33040 2019-09-02T005615 "C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\TestResults"' in 'C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1'
+2019-09-02T00:56:26.0291440+03:00:Entering Memory Barrier for 45952
+2019-09-02T00:56:26.0291590+03:00:Leaving Memory Barrier for 45952
+2019-09-02T00:56:26.0344700+03:00:Out of Process Executor 45952 started
+2019-09-02T00:56:26.0385959+03:00:Waiting for endpoint
+2019-09-02T00:56:26.0401479+03:00:trying to connect to Out of Process Executor the 1 attempt
+2019-09-02T00:56:26.1638384+03:00:waiting for Connection of SpecRun.Executor.45952.Logger ended
+2019-09-02T00:56:26.1664868+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-09-02T00:56:26.1966286+03:00:Connection to Out of Process Executor established in the 1 attempt
+2019-09-02T00:56:26.4830841+03:00:waiting for Connection of SpecRun.Executor.45952.Callback ended
+2019-09-02T00:56:26.6682278+03:00:2019-09-02T00:56:26.5678756+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\Homework.dll on test thread #0
+2019-09-02T00:56:26.6816993+03:00:Endpoint 45952 started
+2019-09-02T00:56:26.7055199+03:00:2019-09-02T00:56:26.7051521+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-09-02T00:56:26.8543786+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-09-02T00:56:26.8651186+03:00:2019-09-02T00:56:26.8647526+03:00:Thread#0:T:2019-09-02T00:56:26.8625104+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-09-02T00:56:27.0086941+03:00:2019-09-02T00:56:27.0084080+03:00:Thread#0:T:-> Loading plugin C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-09-02T00:56:27.0104718+03:00:2019-09-02T00:56:27.0102503+03:00:Thread#0:T:2019-09-02T00:56:27.0101374+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-09-02T00:56:27.0150391+03:00:2019-09-02T00:56:27.0148142+03:00:Thread#0:T:-> Using default config
+2019-09-02T00:56:27.0642658+03:00:2019-09-02T00:56:27.0639066+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:56:27.0879240+03:00:2019-09-02T00:56:27.0876443+03:00:Thread#0:T:2019-09-02T00:56:27.0874472+03:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-09-02T00:56:29.2506078+03:00:2019-09-02T00:56:29.2486034+03:00:Thread#0:T:2019-09-02T00:56:29.2484400+03:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2019-09-02T00:56:31.8487220+03:00:2019-09-02T00:56:31.8480699+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (4.7s)
+2019-09-02T00:56:31.8513714+03:00:2019-09-02T00:56:31.8510518+03:00:Thread#0:B:Then The title is UI Testing Site
+2019-09-02T00:56:31.8684078+03:00:2019-09-02T00:56:31.8681328+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_check_website_title("UI Testing Site") (0.0s)
+2019-09-02T00:56:31.8691472+03:00:2019-09-02T00:56:31.8689659+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:56:31.9703234+03:00:2019-09-02T00:56:31.9698521+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.1s)
+2019-09-02T00:56:31.9877319+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:31.9877763+03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-09-02T00:56:31.9877832+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-09-02T00:56:31.9878294+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:31.9878332+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:31.9878362+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:31.9878388+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-09-02T00:56:31.9878593+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-09-02T00:56:31.9878717+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:32.0553253+03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 5.2002098 seconds
+2019-09-02T00:56:32.0583822+03:00:Thread#0: Test #5/0 is started on thread #0
+2019-09-02T00:56:32.0590237+03:00:2019-09-02T00:56:32.0588419+03:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T00:56:32.0597028+03:00:2019-09-02T00:56:32.0595506+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:56:37.3898904+03:00:2019-09-02T00:56:37.3895346+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (5.3s)
+2019-09-02T00:56:37.3904067+03:00:2019-09-02T00:56:37.3901688+03:00:Thread#0:B:Then The title is UI Testing Site
+2019-09-02T00:56:37.3977751+03:00:2019-09-02T00:56:37.3973962+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_check_website_title("UI Testing Site") (0.0s)
+2019-09-02T00:56:37.3982981+03:00:2019-09-02T00:56:37.3980441+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:56:37.5810837+03:00:2019-09-02T00:56:37.5802819+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.2s)
+2019-09-02T00:56:37.5828786+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:37.5828996+03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2019-09-02T00:56:37.5829026+03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2019-09-02T00:56:37.5829693+03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:37.5829731+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:37.5829757+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:37.5829778+03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2019-09-02T00:56:37.5829996+03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2019-09-02T00:56:37.5830086+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:37.5879471+03:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 5.5295093 seconds
+2019-09-02T00:56:37.5889367+03:00:Thread#0: Test #7/0 is started on thread #0
+2019-09-02T00:56:37.5950744+03:00:2019-09-02T00:56:37.5925705+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:56:43.4973514+03:00:2019-09-02T00:56:43.4970234+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (5.9s)
+2019-09-02T00:56:43.4983479+03:00:2019-09-02T00:56:43.4981251+03:00:Thread#0:B:When I click on home button
+2019-09-02T00:56:43.8206860+03:00:2019-09-02T00:56:43.8204226+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("home") (0.3s)
+2019-09-02T00:56:43.8210409+03:00:2019-09-02T00:56:43.8208870+03:00:Thread#0:B:Then I should be on the home Page
+2019-09-02T00:56:43.8317737+03:00:2019-09-02T00:56:43.8314667+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldBeOnTheHomePage("home") (0.0s)
+2019-09-02T00:56:43.8321736+03:00:2019-09-02T00:56:43.8319863+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:56:44.0834093+03:00:2019-09-02T00:56:44.0829555+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.3s)
+2019-09-02T00:56:44.0852952+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:44.0853388+03:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2019-09-02T00:56:44.0853568+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-09-02T00:56:44.0853948+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:44.0854090+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:44.0854205+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:44.0854329+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-09-02T00:56:44.0854723+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-09-02T00:56:44.0855167+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:44.0913825+03:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 6.5024168 seconds
+2019-09-02T00:56:44.0922193+03:00:Thread#0: Test #9/0 is started on thread #0
+2019-09-02T00:56:44.0977511+03:00:2019-09-02T00:56:44.0973298+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:56:48.8880057+03:00:2019-09-02T00:56:48.8874768+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (4.8s)
+2019-09-02T00:56:48.8885476+03:00:2019-09-02T00:56:48.8883235+03:00:Thread#0:B:When I click on home button
+2019-09-02T00:56:49.2991019+03:00:2019-09-02T00:56:49.2988274+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("home") (0.4s)
+2019-09-02T00:56:49.2995257+03:00:2019-09-02T00:56:49.2993435+03:00:Thread#0:B:Then I see the Home button active
+2019-09-02T00:56:49.3360601+03:00:2019-09-02T00:56:49.3357996+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ISeeTheHomeButtonActive("Home") (0.0s)
+2019-09-02T00:56:49.3364492+03:00:2019-09-02T00:56:49.3362504+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:56:49.6657123+03:00:2019-09-02T00:56:49.6651905+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.3s)
+2019-09-02T00:56:49.6677668+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:49.6677958+03:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2019-09-02T00:56:49.6678327+03:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2019-09-02T00:56:49.6678613+03:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:49.6678677+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:49.6678716+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:49.6678763+03:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2019-09-02T00:56:49.6679015+03:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2019-09-02T00:56:49.6679229+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:49.6736825+03:00:Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 5.5814277 seconds
+2019-09-02T00:56:49.6744899+03:00:Thread#0: Test #11/0 is started on thread #0
+2019-09-02T00:56:49.6769755+03:00:2019-09-02T00:56:49.6766226+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:56:56.2041596+03:00:2019-09-02T00:56:56.2037345+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.5s)
+2019-09-02T00:56:56.2048541+03:00:2019-09-02T00:56:56.2044987+03:00:Thread#0:B:When I click on form button
+2019-09-02T00:56:56.5938218+03:00:2019-09-02T00:56:56.5934878+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("form") (0.4s)
+2019-09-02T00:56:56.5943487+03:00:2019-09-02T00:56:56.5941349+03:00:Thread#0:B:Then I should be on the form Page
+2019-09-02T00:56:56.6001450+03:00:2019-09-02T00:56:56.5998551+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldBeOnTheHomePage("form") (0.0s)
+2019-09-02T00:56:56.6004965+03:00:2019-09-02T00:56:56.6003447+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:56:56.8213296+03:00:2019-09-02T00:56:56.8209584+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.2s)
+2019-09-02T00:56:56.8226267+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:56:56.8226468+03:00:Thread#:Scheduler: testitem #13 from normal test queue 
+2019-09-02T00:56:56.8226635+03:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2019-09-02T00:56:56.8226930+03:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:56:56.8227045+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:56:56.8227127+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:56:56.8227208+03:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2019-09-02T00:56:56.8227520+03:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2019-09-02T00:56:56.8227661+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:56:56.8267595+03:00:Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 7.1522452 seconds
+2019-09-02T00:56:56.8273791+03:00:Thread#0: Test #13/0 is started on thread #0
+2019-09-02T00:56:56.8309616+03:00:2019-09-02T00:56:56.8299575+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:57:02.4699603+03:00:2019-09-02T00:57:02.4695407+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (5.6s)
+2019-09-02T00:57:02.4710658+03:00:2019-09-02T00:57:02.4707502+03:00:Thread#0:B:When I click on form button
+2019-09-02T00:57:02.8728511+03:00:2019-09-02T00:57:02.8724825+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("form") (0.4s)
+2019-09-02T00:57:02.8732770+03:00:2019-09-02T00:57:02.8731073+03:00:Thread#0:B:Then I see the Form button active
+2019-09-02T00:57:02.9025190+03:00:2019-09-02T00:57:02.9022543+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ISeeTheHomeButtonActive("Form") (0.0s)
+2019-09-02T00:57:02.9028436+03:00:2019-09-02T00:57:02.9027102+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:03.3109936+03:00:2019-09-02T00:57:03.3105810+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.4s)
+2019-09-02T00:57:03.3175632+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:03.3176004+03:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2019-09-02T00:57:03.3176098+03:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2019-09-02T00:57:03.3176688+03:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:03.3176770+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:03.3176830+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:03.3176898+03:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2019-09-02T00:57:03.3177214+03:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2019-09-02T00:57:03.3177433+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:03.3212710+03:00:Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 6.493826 seconds
+2019-09-02T00:57:03.3221276+03:00:Thread#0: Test #15/0 is started on thread #0
+2019-09-02T00:57:03.3249535+03:00:2019-09-02T00:57:03.3244091+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:57:10.0928750+03:00:2019-09-02T00:57:10.0923943+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.8s)
+2019-09-02T00:57:10.0933103+03:00:2019-09-02T00:57:10.0931409+03:00:Thread#0:B:When I click on error button
+2019-09-02T00:57:11.3970219+03:00:2019-09-02T00:57:11.3965827+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("error") (1.3s)
+2019-09-02T00:57:11.3978054+03:00:2019-09-02T00:57:11.3975005+03:00:Thread#0:B:Then I get 404 error
+2019-09-02T00:57:11.4399853+03:00:2019-09-02T00:57:11.4397274+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IgetError() (0.0s)
+2019-09-02T00:57:11.4403693+03:00:2019-09-02T00:57:11.4401892+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:11.4951960+03:00:2019-09-02T00:57:11.4945546+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.1s)
+2019-09-02T00:57:11.4967613+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:11.4967891+03:00:Thread#:Scheduler: testitem #17 from normal test queue 
+2019-09-02T00:57:11.4967964+03:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2019-09-02T00:57:11.4968233+03:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:11.4968272+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:11.4968301+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:11.4968349+03:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2019-09-02T00:57:11.4968537+03:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2019-09-02T00:57:11.4968644+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:11.4993956+03:00:Thread#0: Test #15/0 is finished on thread #0 as Succeeded within 8.1772385 seconds
+2019-09-02T00:57:11.4999571+03:00:Thread#0: Test #17/0 is started on thread #0
+2019-09-02T00:57:11.5067829+03:00:2019-09-02T00:57:11.5062569+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:57:21.3893200+03:00:2019-09-02T00:57:21.3889668+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (9.9s)
+2019-09-02T00:57:21.3897985+03:00:2019-09-02T00:57:21.3895599+03:00:Thread#0:B:When I click on site button
+2019-09-02T00:57:21.9950768+03:00:2019-09-02T00:57:21.9948403+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IClickOnFormButton("site") (0.6s)
+2019-09-02T00:57:21.9953949+03:00:2019-09-02T00:57:21.9952555+03:00:Thread#0:B:Then I should be on the home Page
+2019-09-02T00:57:21.9999665+03:00:2019-09-02T00:57:21.9996599+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldBeOnTheHomePage("home") (0.0s)
+2019-09-02T00:57:22.0003766+03:00:2019-09-02T00:57:22.0001842+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:22.4175976+03:00:2019-09-02T00:57:22.4171259+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.4s)
+2019-09-02T00:57:22.4191312+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:22.4191552+03:00:Thread#:Scheduler: testitem #19 from normal test queue 
+2019-09-02T00:57:22.4191616+03:00:Thread#0:Scheduler: considering testitem #19 for thread 0
+2019-09-02T00:57:22.4191924+03:00:Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:22.4192010+03:00:Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:22.4192044+03:00:Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:22.4192082+03:00:Thread#0:Scheduler: using testitem #19 for thread 0
+2019-09-02T00:57:22.4192305+03:00:Thread#0:Scheduler: Test #19 is scheduled for thread
+2019-09-02T00:57:22.4192394+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:22.4220290+03:00:Thread#0: Test #17/0 is finished on thread #0 as Succeeded within 10.9220437 seconds
+2019-09-02T00:57:22.4226041+03:00:Thread#0: Test #19/0 is started on thread #0
+2019-09-02T00:57:22.4257444+03:00:2019-09-02T00:57:22.4252180+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:57:29.3180799+03:00:2019-09-02T00:57:29.3175153+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.9s)
+2019-09-02T00:57:29.3185789+03:00:2019-09-02T00:57:29.3183484+03:00:Thread#0:B:Then The h1 tag contains Welcome to the Docler Holding QA Department
+2019-09-02T00:57:29.3537294+03:00:2019-09-02T00:57:29.3533873+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IgetH1tag("h1", "Welcome to the Do...") (0.0s)
+2019-09-02T00:57:29.3541870+03:00:2019-09-02T00:57:29.3539702+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:29.4784111+03:00:2019-09-02T00:57:29.4779886+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.1s)
+2019-09-02T00:57:29.4815232+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:29.4816032+03:00:Thread#:Scheduler: testitem #21 from normal test queue 
+2019-09-02T00:57:29.4816134+03:00:Thread#0:Scheduler: considering testitem #21 for thread 0
+2019-09-02T00:57:29.4816895+03:00:Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:29.4817114+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:29.4817191+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:29.4817276+03:00:Thread#0:Scheduler: using testitem #21 for thread 0
+2019-09-02T00:57:29.4817986+03:00:Thread#0:Scheduler: Test #21 is scheduled for thread
+2019-09-02T00:57:29.4818375+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:29.4868898+03:00:Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 7.0642515 seconds
+2019-09-02T00:57:29.4899719+03:00:Thread#0: Test #21/0 is started on thread #0
+2019-09-02T00:57:29.4919793+03:00:2019-09-02T00:57:29.4916851+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/
+2019-09-02T00:57:36.1878314+03:00:2019-09-02T00:57:36.1875089+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.7s)
+2019-09-02T00:57:36.1882235+03:00:2019-09-02T00:57:36.1880439+03:00:Thread#0:B:Then The p tag contains This site is dedicated to perform some exercises and demonstrate automated web testing.
+2019-09-02T00:57:36.2228873+03:00:2019-09-02T00:57:36.2225055+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.IgetH1tag("p", "This site is dedi...") (0.0s)
+2019-09-02T00:57:36.2234052+03:00:2019-09-02T00:57:36.2231803+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:36.6617921+03:00:2019-09-02T00:57:36.6614324+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.4s)
+2019-09-02T00:57:36.6631772+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:36.6631943+03:00:Thread#:Scheduler: testitem #23 from normal test queue 
+2019-09-02T00:57:36.6632020+03:00:Thread#0:Scheduler: considering testitem #23 for thread 0
+2019-09-02T00:57:36.6632298+03:00:Thread#0:TestItem#23:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:36.6632358+03:00:Thread#0:TestItem#23:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:36.6632405+03:00:Thread#0:TestItem#23:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:36.6632457+03:00:Thread#0:Scheduler: using testitem #23 for thread 0
+2019-09-02T00:57:36.6632726+03:00:Thread#0:Scheduler: Test #23 is scheduled for thread
+2019-09-02T00:57:36.6632880+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:36.6657427+03:00:Thread#0: Test #21/0 is finished on thread #0 as Succeeded within 7.175737 seconds
+2019-09-02T00:57:36.6663192+03:00:Thread#0: Test #23/0 is started on thread #0
+2019-09-02T00:57:36.6681970+03:00:2019-09-02T00:57:36.6679019+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:57:42.7395521+03:00:2019-09-02T00:57:42.7390163+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.1s)
+2019-09-02T00:57:42.7401684+03:00:2019-09-02T00:57:42.7399157+03:00:Thread#0:B:Then I see on the Form page a form with one input box and one submit button
+2019-09-02T00:57:42.9423322+03:00:2019-09-02T00:57:42.9419020+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ISeeOneInputandSubmitButton() (0.2s)
+2019-09-02T00:57:42.9429754+03:00:2019-09-02T00:57:42.9426444+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:43.1515408+03:00:2019-09-02T00:57:43.1511259+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.2s)
+2019-09-02T00:57:43.1536607+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:43.1536863+03:00:Thread#:Scheduler: testitem #25 from normal test queue 
+2019-09-02T00:57:43.1536919+03:00:Thread#0:Scheduler: considering testitem #25 for thread 0
+2019-09-02T00:57:43.1537316+03:00:Thread#0:TestItem#25:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:43.1537444+03:00:Thread#0:TestItem#25:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:43.1537521+03:00:Thread#0:TestItem#25:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:43.1537658+03:00:Thread#0:Scheduler: using testitem #25 for thread 0
+2019-09-02T00:57:43.1538047+03:00:Thread#0:Scheduler: Test #25 is scheduled for thread
+2019-09-02T00:57:43.1538445+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:43.1604193+03:00:Thread#0: Test #23/0 is finished on thread #0 as Succeeded within 6.4940628 seconds
+2019-09-02T00:57:43.1619511+03:00:Thread#0: Test #25/0 is started on thread #0
+2019-09-02T00:57:43.1660032+03:00:2019-09-02T00:57:43.1650974+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:57:49.7161707+03:00:2019-09-02T00:57:49.7155955+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (6.5s)
+2019-09-02T00:57:49.7167254+03:00:2019-09-02T00:57:49.7164628+03:00:Thread#0:B:And I type John in the input field and click Submit
+2019-09-02T00:57:50.2912549+03:00:2019-09-02T00:57:50.2908807+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.GivenThereAreNames("John") (0.6s)
+2019-09-02T00:57:50.2918267+03:00:2019-09-02T00:57:50.2915085+03:00:Thread#0:B:Then I should see Hello John! on the page
+2019-09-02T00:57:50.3359831+03:00:2019-09-02T00:57:50.3356619+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldSeeTheNames("Hello John!") (0.0s)
+2019-09-02T00:57:50.3364116+03:00:2019-09-02T00:57:50.3362012+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:50.6490899+03:00:2019-09-02T00:57:50.6486323+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.3s)
+2019-09-02T00:57:50.6502651+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:50.6502835+03:00:Thread#:Scheduler: testitem #26 from normal test queue 
+2019-09-02T00:57:50.6502886+03:00:Thread#0:Scheduler: considering testitem #26 for thread 0
+2019-09-02T00:57:50.6503113+03:00:Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:50.6503172+03:00:Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:50.6503228+03:00:Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:50.6503275+03:00:Thread#0:Scheduler: using testitem #26 for thread 0
+2019-09-02T00:57:50.6503506+03:00:Thread#0:Scheduler: Test #26 is scheduled for thread
+2019-09-02T00:57:50.6503656+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:50.6530423+03:00:Thread#0: Test #25/0 is finished on thread #0 as Succeeded within 7.4910608 seconds
+2019-09-02T00:57:50.6538278+03:00:Thread#0: Test #26/0 is started on thread #0
+2019-09-02T00:57:50.6548047+03:00:2019-09-02T00:57:50.6545121+03:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T00:57:50.6556356+03:00:2019-09-02T00:57:50.6553739+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:57:58.0494785+03:00:2019-09-02T00:57:58.0491214+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (7.4s)
+2019-09-02T00:57:58.0499570+03:00:2019-09-02T00:57:58.0497359+03:00:Thread#0:B:And I type Sophia in the input field and click Submit
+2019-09-02T00:57:58.5489640+03:00:2019-09-02T00:57:58.5486283+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.GivenThereAreNames("Sophia") (0.5s)
+2019-09-02T00:57:58.5496521+03:00:2019-09-02T00:57:58.5493895+03:00:Thread#0:B:Then I should see Hello Sophia! on the page
+2019-09-02T00:57:58.5972737+03:00:2019-09-02T00:57:58.5969428+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldSeeTheNames("Hello Sophia!") (0.0s)
+2019-09-02T00:57:58.5976954+03:00:2019-09-02T00:57:58.5975034+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:57:58.8107816+03:00:2019-09-02T00:57:58.8098287+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.2s)
+2019-09-02T00:57:58.8133714+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:57:58.8133975+03:00:Thread#:Scheduler: testitem #27 from normal test queue 
+2019-09-02T00:57:58.8134052+03:00:Thread#0:Scheduler: considering testitem #27 for thread 0
+2019-09-02T00:57:58.8134313+03:00:Thread#0:TestItem#27:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:57:58.8134381+03:00:Thread#0:TestItem#27:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:57:58.8134428+03:00:Thread#0:TestItem#27:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:57:58.8134488+03:00:Thread#0:Scheduler: using testitem #27 for thread 0
+2019-09-02T00:57:58.8135074+03:00:Thread#0:Scheduler: Test #27 is scheduled for thread
+2019-09-02T00:57:58.8135232+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:57:58.8216845+03:00:Thread#0: Test #26/0 is finished on thread #0 as Succeeded within 8.1677956 seconds
+2019-09-02T00:57:58.8225274+03:00:Thread#0: Test #27/0 is started on thread #0
+2019-09-02T00:57:58.8234982+03:00:2019-09-02T00:57:58.8230616+03:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T00:57:58.8261086+03:00:2019-09-02T00:57:58.8249775+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:58:05.8930200+03:00:2019-09-02T00:58:05.8926471+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (7.1s)
+2019-09-02T00:58:05.8934789+03:00:2019-09-02T00:58:05.8932988+03:00:Thread#0:B:And I type Charlie in the input field and click Submit
+2019-09-02T00:58:06.6660455+03:00:2019-09-02T00:58:06.6657342+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.GivenThereAreNames("Charlie") (0.8s)
+2019-09-02T00:58:06.6664394+03:00:2019-09-02T00:58:06.6662683+03:00:Thread#0:B:Then I should see Hello Charlie! on the page
+2019-09-02T00:58:06.7129996+03:00:2019-09-02T00:58:06.7126844+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldSeeTheNames("Hello Charlie!") (0.0s)
+2019-09-02T00:58:06.7134470+03:00:2019-09-02T00:58:06.7132498+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:58:07.0003228+03:00:2019-09-02T00:58:06.9998994+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.3s)
+2019-09-02T00:58:07.0015155+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:58:07.0015394+03:00:Thread#:Scheduler: testitem #28 from normal test queue 
+2019-09-02T00:58:07.0015480+03:00:Thread#0:Scheduler: considering testitem #28 for thread 0
+2019-09-02T00:58:07.0015976+03:00:Thread#0:TestItem#28:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T00:58:07.0016074+03:00:Thread#0:TestItem#28:runsOnOneOtherThreadSpecific:False
+2019-09-02T00:58:07.0016151+03:00:Thread#0:TestItem#28:runsOnOneOtherThreadUnspecific:False
+2019-09-02T00:58:07.0016237+03:00:Thread#0:Scheduler: using testitem #28 for thread 0
+2019-09-02T00:58:07.0016677+03:00:Thread#0:Scheduler: Test #28 is scheduled for thread
+2019-09-02T00:58:07.0016896+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T00:58:07.0071823+03:00:Thread#0: Test #27/0 is finished on thread #0 as Succeeded within 8.184627 seconds
+2019-09-02T00:58:07.0091247+03:00:Thread#0: Test #28/0 is started on thread #0
+2019-09-02T00:58:07.0124262+03:00:2019-09-02T00:58:07.0120203+03:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T00:58:07.0135180+03:00:2019-09-02T00:58:07.0132143+03:00:Thread#0:B:Given I navigate to http://uitest.duodecadits.com/form.html
+2019-09-02T00:58:12.6556154+03:00:2019-09-02T00:58:12.6552917+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.I_navigate_to_a_website("http://uitest.duo...") (5.6s)
+2019-09-02T00:58:12.6560559+03:00:2019-09-02T00:58:12.6558622+03:00:Thread#0:B:And I type Emily in the input field and click Submit
+2019-09-02T00:58:13.4318055+03:00:2019-09-02T00:58:13.4314527+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.GivenThereAreNames("Emily") (0.8s)
+2019-09-02T00:58:13.4323200+03:00:2019-09-02T00:58:13.4320639+03:00:Thread#0:B:Then I should see Hello Emily! on the page
+2019-09-02T00:58:13.4742475+03:00:2019-09-02T00:58:13.4740106+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ThenIShouldSeeTheNames("Hello Emily!") (0.0s)
+2019-09-02T00:58:13.4746863+03:00:2019-09-02T00:58:13.4744746+03:00:Thread#0:B:And I close the browser
+2019-09-02T00:58:14.0032723+03:00:2019-09-02T00:58:14.0028570+03:00:Thread#0:T:done: SpecFlowFeatsure1Steps.ICloseTheBrowser() (0.5s)
+2019-09-02T00:58:14.0047020+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T00:58:14.0047456+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-09-02T00:58:14.0047567+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-09-02T00:58:14.0047631+03:00:Thread#0:Scheduler: No more tests for thread
+2019-09-02T00:58:14.0102345+03:00:Thread#0: Test #28/0 is finished on thread #0 as Succeeded within 7.0010764 seconds
+2019-09-02T00:58:14.0260858+03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-09-02T00:58:14.0337797+03:00:Unable to stop executor process: System.InvalidOperationException: No process is associated with this object.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at System.Diagnostics.Process.get_HasExited()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StopExecutorProcess(Process executorProcess)
+2019-09-02T00:58:14.0476827+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-09-02T00:58:14.0477054+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-09-02T00:58:14.0477114+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-09-02T00:58:14.0513546+03:00;Thread#12;Info;test run finished
+2019-09-02T00:58:14.0516514+03:00;Thread#12;Info;publishing test results
+2019-09-02T00:58:14.0520427+03:00;Thread#12;Info;Not publishing results.
+2019-09-02T00:58:14.0522005+03:00;Thread#12;Info;test results published
+2019-09-02T00:58:14.0523489+03:00;Thread#12;Info;generating reports
+2019-09-02T00:58:14.1419392+03:00;Thread#12;Info;Starting external report generation process
+2019-09-02T00:58:15.7001803+03:00;Thread#12;Info;Successfully generated reports.
+2019-09-02T00:58:15.7025657+03:00;Thread#12;Info;Successfully generated reports
+2019-09-02T00:58:15.7103849+03:00:Total: 15
+2019-09-02T00:58:15.7132391+03:00:Succeeded: 15
+2019-09-02T00:58:15.7138656+03:00:Ignored: 0
+2019-09-02T00:58:15.7144682+03:00:Pending: 0
+2019-09-02T00:58:15.7144746+03:00:Skipped: 0
+2019-09-02T00:58:15.7150771+03:00:Failed: 0
+2019-09-02T00:58:15.7256128+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-09-02T00:58:15.7257248+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\daniel\source\repos\WebUITest_C-_SpecFlow\ConsoleApp1\TestResults\Unnamed project__2019-09-02T005615.html'
+========== End of log file ==========

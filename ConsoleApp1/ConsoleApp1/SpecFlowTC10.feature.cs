@@ -17,20 +17,22 @@ namespace Homework
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("REQ-UI-01 - The Title should be \"UI Testing Site\" on every site", SourceFile="SpecFlowFeature1.feature", SourceLine=0)]
-    public partial class REQ_UI_01_TheTitleShouldBeUITestingSiteOnEverySiteFeature
+    [TechTalk.SpecRun.FeatureAttribute("REQ-UI-10 - The following text should be visible on the Home page in <p> tag:", Description="\"This site is dedicated to perform some exercises and demonstrate automated web t" +
+        "esting.\"", SourceFile="SpecFlowTC10.feature", SourceLine=0)]
+    public partial class REQ_UI_10_TheFollowingTextShouldBeVisibleOnTheHomePageInPTagFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "SpecFlowFeature1.feature"
+#line 1 "SpecFlowTC10.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "REQ-UI-01 - The Title should be \"UI Testing Site\" on every site", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "REQ-UI-10 - The following text should be visible on the Home page in <p> tag:", "\"This site is dedicated to perform some exercises and demonstrate automated web t" +
+                    "esting.\"", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -66,35 +68,21 @@ namespace Homework
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Check title on Homepage", SourceLine=2)]
-        public virtual void CheckTitleOnHomepage()
+        [TechTalk.SpecRun.ScenarioAttribute("I should get \"Welcome to the Docler Holding QA Department\" when looking for an <h" +
+            "1> tag", SourceLine=3)]
+        public virtual void IShouldGetWelcomeToTheDoclerHoldingQADepartmentWhenLookingForAnH1Tag()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check title on Homepage", null, ((string[])(null)));
-#line 3
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I should get \"Welcome to the Docler Holding QA Department\" when looking for an <h" +
+                    "1> tag", null, ((string[])(null)));
 #line 4
- testRunner.Given("I navigate to http://uitest.duodecadits.com/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 5
- testRunner.Then("The title is UI Testing Site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 6
- testRunner.And("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Check title on Form", SourceLine=7)]
-        public virtual void CheckTitleOnForm()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check title on Form", null, ((string[])(null)));
-#line 8
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 9
- testRunner.Given("I navigate to http://uitest.duodecadits.com/form.html", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 10
- testRunner.Then("The title is UI Testing Site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 11
+#line 5
+ testRunner.Given("I navigate to http://uitest.duodecadits.com/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 6
+ testRunner.Then("The p tag contains This site is dedicated to perform some exercises and demonstra" +
+                    "te automated web testing.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 7
  testRunner.And("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();

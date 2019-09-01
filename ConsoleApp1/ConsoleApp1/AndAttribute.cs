@@ -2,11 +2,11 @@
 
 namespace ToolsQA
 {
-    internal class AndAttribute : Attribute
+    internal class Then : Attribute
     {
         private string v;
 
-        public AndAttribute(string v)
+        public Then(string v)
         {
             this.v = v;
         }

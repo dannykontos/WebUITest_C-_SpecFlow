@@ -9,3 +9,4 @@ Scenario:	Check title on Form
 	Given I navigate to http://uitest.duodecadits.com/form.html
 	Then The title is UI Testing Site
 	And I close the browser
+

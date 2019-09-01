@@ -7,8 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC1 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC10 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC3 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC4 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC6 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC8 - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="SpecFlowTC9 - Copy.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.24.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="SpecFlow" Version="3.0.225" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
@@ -17,10 +29,56 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="SpecFlowFeature1.feature.cs">
+    <Compile Update="SpecFlowTC11.feature.cs">
+      <DependentUpon>SpecFlowTC11.feature</DependentUpon>
+    </Compile>
+    <Compile Update="SpecFlowTC12.feature.cs">
+      <DependentUpon>SpecFlowTC12.feature</DependentUpon>
+    </Compile>
+    <Compile Update="SpecFlowTC10.feature.cs">
+      <DependentUpon>SpecFlowTC10.feature</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+    </Compile>
+    <Compile Update="SpecFlowTC09.feature.cs">
+      <DependentUpon>SpecFlowTC09.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC08.feature.cs">
+      <DependentUpon>SpecFlowTC08.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC07.feature.cs">
+      <DependentUpon>SpecFlowTC07.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC06.feature.cs">
+      <DependentUpon>SpecFlowTC06.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC04.feature.cs">
+      <DependentUpon>SpecFlowTC04.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC05.feature.cs">
+      <DependentUpon>SpecFlowTC05.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC03.feature.cs">
+      <DependentUpon>SpecFlowTC03.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="SpecFlowTC01.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SpecFlowTC01.feature</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -32,10 +90,74 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="SpecFlowFeature1.feature">
+    <SpecFlowFeatureFiles Update="SpecFlowTC11.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC10.feature.cs</LastGenOutput>
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC12.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC10.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC10.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC10.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC09.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC09.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC08.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC08.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC07.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC07.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC06.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC06.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC04.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC04.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC05.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC05.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC03.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <LastGenOutput>SpecFlowTC03.feature.cs</LastGenOutput>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="SpecFlowTC01.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowTC01.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PageObjects\" />
   </ItemGroup>
 
 </Project>
